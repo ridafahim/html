@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Fonts & Icons-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <script src="https://kit.fontawesome.com/ccbd4d6bc1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet"/>
+    <!--stylesheet-->
+    <link rel="stylesheet" href="icestyle.css">
+</head>
+<body>
+   <header>
+    <nav>
+        <div class="container">
+        <div class="menu">
+           <ul class="social-media">
+            <li>
+                <a href="#" class="media-icons">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="media-icons">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="media-icons">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+        </ul>
+        <ul class="nav-links">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="#">Bookings</a>
+            </li>
+        </ul>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        </div>
+    </nav>
+    <div class="glass">
+        <h1 class="h-glass">Ice</h1>
+        <div>
+            <div>
+                <i class="fa fa-route"></i>
+            </div>
+            <div>
+                <h2>Discover Tour</h2>
+                <p>Lorem Ipsum</p>
+                <a href="#">
+                    VIEW<i class="fa fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <h1 class="h-regular">Land</h1>
+   </header> 
+
+   <section>
+    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+    </p>
+    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,</p>
+   </section>
+
+   <script>
+    const navbar = document.querySelector("nav");
+    const menu = document.querySelector('.menu');
+    const menuBtn = document.querySelector(".menu-btn");
+
+
+
+    menuBtn.addEventListener("click",() =>{
+        navbar.classList.toggle('nav-background');
+        menu.classList.toggle('nav-toggle');
+    });
+   </script>
+</body>
+</html>
